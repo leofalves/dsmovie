@@ -14,10 +14,21 @@ Implementação do Back-end para avalição de filmes dado o modelo abaixo.
 Deploy do Backend no Heroku
 
 heroku -v
+
 heroku login
+
 heroku git:remote -a <nome-do-app>
+  
 git remote -v
+  
 git subtree push --prefix backend heroku main
   
-----
 https://leofalves-dsmovie.herokuapp.com/
+
+  
+-----
+  
+Deploy do Frontend no Netlify
+https://leofalves-dsmovie.netlify.app/
+  
+-----
